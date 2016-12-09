@@ -1,0 +1,96 @@
+header{
+
+	background-color: #242424;
+	padding: 12px;
+	display: flex;
+}
+
+header i{
+
+	color: white;
+	margin-top: 3px;
+    margin-right: 9px;
+}
+
+header span{
+
+	color: #fff;
+    font-size: 23px;
+    font-family: "Bree Serif", sans-serif;
+    margin: auto 0px;
+}
+
+.moviesContainer{
+
+	margin-top: 2%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.movieTitle i{
+
+	margin-top: -35px;
+}
+
+.card{
+
+	width: 30%;
+    margin: 2% 1.63%;
+}
+
+.card:hover{
+
+	box-shadow: 0px 10px 30px #242424;
+    transition: box-shadow .3s ease-out;            
+}
+
+.card-image img{
+
+	height: 380px;
+}
+
+.icon{
+
+	margin-left: 9px;
+}
+
+.reviewHeader, .ratingHeader{
+
+	margin-top: 10%;
+	display: flex;
+}
+
+.reviewHeader i, .ratingHeader i{
+
+	margin-top: 6px;
+}
+
+.reviewSpan{
+
+	
+}
+
+.trailerClass a{
+
+	font-size: 19px;
+}
+
+.trailerClass{
+
+	display: flex;
+}
+
+.modal{
+
+	max-height: 79% !important;
+}
+
+.modal-content{
+
+	padding: 0px !important;
+}
+
+input[type=checkbox] + label{
+
+	color: #616161 !important;
+}
